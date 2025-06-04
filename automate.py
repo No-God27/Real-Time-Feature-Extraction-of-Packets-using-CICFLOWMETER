@@ -56,9 +56,9 @@ def run_cfm(cfm_path, input_file, output_folder):
 
 def main():
     # Define paths
-    cfm_path = r"C:\Users\linpa\OneDrive\Desktop\charm\CICFlowMeter-4.0\bin\cfm.bat"
-    input_folder = r"C:\Users\linpa\OneDrive\Documents\pcap_store"
-    output_folder = r"C:\Users\linpa\OneDrive\Documents\output"
+    cfm_path = r"..\CICFlowMeter-4.0\bin\cfm.bat" #your path of cfm.bat file
+    input_folder = r"..\pcap_store" # your folder path, i.e where you want to store the extracted pcap files
+    output_folder = r"..\output" # your path of output i.e. where you want to store converted csv output
     interface = "Wi-Fi"  # Modify with the correct interface name for your system
     capture_duration = 100  # seconds
 
